@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="V"
+        android:textColor="#000"
+        android:textSize="60sp"
+        android:id="@+id/v"/>
+    <TextView
+        android:id="@+id/tm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/v"
+        android:layout_marginTop="-40dp"
+        android:text="Team1"
+        android:textColor="#000"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/v"
+        android:layout_marginBottom="-40dp"
+        android:text="Team2"
+        android:textColor="#000"
+        android:textSize="40sp"  />
+
+    <TextView
+        android:id="@+id/tm1_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/v"
+        android:layout_marginTop="-40dp"
+        android:layout_alignParentRight="true"
+        android:text="S"
+        android:textColor="#000"
+        android:textSize="40sp" /> />
+
+    <TextView
+        android:id="@+id/tm2_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/v"
+        android:layout_marginBottom="-40dp"
+        android:layout_alignParentRight="true"
+        android:text="S"
+        android:textColor="#000"
+        android:textSize="40sp" /> />
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:id="@+id/img1"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:id="@+id/img2"/>
+
+</RelativeLayout>
